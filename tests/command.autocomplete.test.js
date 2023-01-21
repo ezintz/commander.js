@@ -52,7 +52,7 @@ describe('program should have completion rules, if defined.', () => {
         },
         '-m': {
           arity: 1,
-          sibling: undefined,
+          sibling: null,
           reply: program._completionRules.options['-m']
         }
       },
